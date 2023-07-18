@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(183, 183, 106, 0.942);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+}
+
+.box{
+    background-color: white;
+    width: 20%;
+    height: 60%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 10px;
+    box-shadow: 0px 0px 40px black;
+}
+
+.box img{
+    border-radius: 20px ;
+}
+
+.box p{
+    font-size: 0.9rem;
+}
